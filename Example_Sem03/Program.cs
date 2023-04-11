@@ -40,7 +40,7 @@ else{
 14 -> нет 
 46 -> нет 
 161 -> да */
-
+/*
 int value = new Random().Next(100,1000);
 //int value = 161;
 Console.WriteLine(value);
@@ -52,4 +52,28 @@ if ((value%7 == 0) && (value%23 == 0))
 else
     {
         Console.WriteLine("Нет");
+    }
+    */
+
+
+//Напишите программу, которая принимает на вход два числа 
+//и проверяет, является ли одно число квадратом другого.
+
+//5, 25  ->  да
+//-4, 16  ->  да
+//25, 5  ->  да
+//8,9  ->  нет
+
+Console.WriteLine("Введите число");
+int value1=Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число");
+int value2=Convert.ToInt32(Console.ReadLine());
+
+if(value1 == value2*value2)
+    {
+        Console.WriteLine("Число 1 является квадратом числа 2");
+    }
+else
+    {
+        Console.WriteLine("Число 1 не является квадратом числа 2");
     }

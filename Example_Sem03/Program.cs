@@ -17,7 +17,7 @@ Console.WriteLine("Итоговое число " + a + b);
 */
 
 
-
+/*
 Console.WriteLine ("Введите число 1");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("Введите число 2");
@@ -31,3 +31,25 @@ if( result == 0){
 else{
     Console.WriteLine ("Число 2 не кратно числу 1 отстаток " + result);
 }
+*/
+
+/*Напишите программу, которая принимает на вход число 
+и проверяет, кратно ли оно одновременно 
+7 и 23.
+
+14 -> нет 
+46 -> нет 
+161 -> да */
+
+int value = new Random().Next(100,1000);
+//int value = 161;
+Console.WriteLine(value);
+
+if ((value%7 == 0) && (value%23 == 0))
+    {
+        Console.WriteLine("Да");
+    }
+else
+    {
+        Console.WriteLine("Нет");
+    }

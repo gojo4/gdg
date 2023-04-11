@@ -69,6 +69,7 @@ int value1=Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число");
 int value2=Convert.ToInt32(Console.ReadLine());
 
+//double m = Math.Pow(a,2);
 if(value1 == value2*value2)
     {
         Console.WriteLine("Число 1 является квадратом числа 2");

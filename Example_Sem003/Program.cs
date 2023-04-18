@@ -118,4 +118,4 @@ int value = Convert.ToInt32(Console.ReadLine());
 for (int i=1; i <= value; i++ )
     {
         Console.WriteLine(Math.Pow(i,2));
-    }
+    }    

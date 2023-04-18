@@ -47,12 +47,31 @@
 // и выдаёт произведение чисел от 1 до N.
 // 4 -> 24 
 // 5 -> 120
-Console.WriteLine("Введите число: ");
-int value = Convert.ToInt32(Console.ReadLine());
-int temp = 1;
+// Console.WriteLine("Введите число: ");
+// int value = Convert.ToInt32(Console.ReadLine());
+// int temp = 1;
 
-for (int i = 1; i <= value; i++)
+// for (int i = 1; i <= value; i++)
+//     {
+//         temp *= i;
+//     }
+// Console.WriteLine(temp);
+
+// Задача 30: Напишите программу, которая выводит массив из 8 элементов, 
+// заполненный нулями и единицами в случайном порядке.
+// [1,0,1,1,0,1,0,0]
+
+int[] arrayNum = new int[8];
+
+// for (int i = 0; i < arrayNum.Length; i++)
+//     {
+//         arrayNum[i] = new Random().Next(0,2);
+//         Console.Write(arrayNum[i] + ",");
+//     }
+
+for (int i = 0; i < arrayNum.Length; i++)
     {
-        temp *= i;
+    arrayNum[i] = new Random().Next(0,2);
     }
-Console.WriteLine(temp);
+
+Console.WriteLine(String.Join(", " , arrayNum));

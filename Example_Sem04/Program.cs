@@ -61,7 +61,7 @@
 // заполненный нулями и единицами в случайном порядке.
 // [1,0,1,1,0,1,0,0]
 
-int[] arrayNum = new int[8];
+// int[] arrayNum = new int[8];
 
 // for (int i = 0; i < arrayNum.Length; i++)
 //     {
@@ -69,9 +69,20 @@ int[] arrayNum = new int[8];
 //         Console.Write(arrayNum[i] + ",");
 //     }
 
-for (int i = 0; i < arrayNum.Length; i++)
-    {
-    arrayNum[i] = new Random().Next(0,2);
-    }
+// for (int i = 0; i < arrayNum.Length; i++)
+//     {
+//     arrayNum[i] = new Random().Next(0,2);
+//     }
 
-Console.WriteLine(String.Join(", " , arrayNum));
+// Console.WriteLine(arrayNum.Length);
+// // Console.WriteLine(String.Join(", " , arrayNum));
+
+
+// int [] arrayNum = new int [8];
+
+// for (int i = 0; i < arrayNum.Length; i++)
+// {
+//     arrayNum[i] = Convert.ToInt32(Console.ReadLine());
+// }
+// Console.WriteLine(String.Join(", ", arrayNum));
+

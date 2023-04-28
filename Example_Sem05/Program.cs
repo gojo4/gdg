@@ -5,22 +5,22 @@
 // сумма положительных чисел равна 29, сумма отрицательных равна -20.
 
 // int [] arrayNum = new int [12];
-// int positivNum = 0;
-// int negNum = 0;
+// // int positivNum = 0;
+// // int negNum = 0;
 
 // for (int i = 0; i < arrayNum.Length; i++)
 // {
 //     arrayNum[i] = new Random().Next(-9,10);
-//     if (arrayNum[i] > 0)
-//     {
-//         positivNum += arrayNum[i];
-//     }
-//     else
-//     {
-//         negNum += arrayNum[i];
-//     }
+    // if (arrayNum[i] > 0)
+    // {
+    //     positivNum += arrayNum[i];
+    // }
+    // else
+    // {
+    //     negNum += arrayNum[i];
+    // }
 // }
-// Console.WriteLine(String.Join(",", arrayNum)
+// Console.WriteLine(String.Join(",", arrayNum));
 // +"\nСумма положительных: " + positivNum + "\nСумма отрицательных: " + negNum);
 
 // Задача 32: Напишите программу замена элементов массива: 
@@ -120,20 +120,20 @@
 // [1 2 3 4 5] -> 5 8 3
 // [6 7 3 6] -> 36 21
 
-int[] arrayNum1 = new int [] {3,8,2,6,5};
-int[] arrayNum2 = new int [arrayNum1.Length/2 + arrayNum1.Length%2];
+// int[] arrayNum1 = new int [] {3,8,2,6,5};
+// int[] arrayNum2 = new int [arrayNum1.Length/2 + arrayNum1.Length%2];
 
-for (int i = 0; i < arrayNum2.Length; i++)
-{
-    arrayNum2[i] = arrayNum1[i]*arrayNum1[arrayNum1.Length-1-i];
+// for (int i = 0; i < arrayNum2.Length; i++)
+// {
+//     arrayNum2[i] = arrayNum1[i]*arrayNum1[arrayNum1.Length-1-i];
 
-    if (i == arrayNum1.Length-1-i)
-    {
-        arrayNum2[i] = arrayNum1[arrayNum1.Length-1-i];
-    }
-}
-Console.WriteLine("[" + String.Join(", ", arrayNum1) + "]");
-Console.WriteLine("[" + String.Join(", ", arrayNum2) + "]");
+//     if (i == arrayNum1.Length-1-i)
+//     {
+//         arrayNum2[i] = arrayNum1[arrayNum1.Length-1-i];
+//     }
+// }
+// Console.WriteLine("[" + String.Join(", ", arrayNum1) + "]");
+// Console.WriteLine("[" + String.Join(", ", arrayNum2) + "]");
 
 // int[] arr = new int[5] {3,8,2,6,5}; //первый массив
 // int lg = arr.Length;                //задаем переменную для длинны первого массива для простоты формул

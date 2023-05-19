@@ -61,35 +61,35 @@
 // 4; массив [6, 7, 19, 345, 3] -> нет
 // -3; массив [6, 7, 19, 345, 3] -> да
 
-// Console.WriteLine("Введите элементы массива: ");
-// int [] arrayNum = new int [5];
-// bool flag = false;
-// for (int i = 0; i < arrayNum.Length; i++)
-// {
-//     arrayNum[i] = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите элементы массива: ");
+int [] arrayNum = new int [5];
+bool flag = false;
+for (int i = 0; i < arrayNum.Length; i++)
+{
+    arrayNum[i] = Convert.ToInt32(Console.ReadLine());
     
-// }
-// Console.WriteLine("[" + String.Join(", ", arrayNum) + "]");
-// Console.WriteLine("Введите число: ");
-// int value = Convert.ToInt32(Console.ReadLine());
+}
+Console.WriteLine("[" + String.Join(", ", arrayNum) + "]");
+Console.WriteLine("Введите число: ");
+int value = Convert.ToInt32(Console.ReadLine());
 
-// for (int i = 0; i < arrayNum.Length; i++)
-// {
-//     if (arrayNum[i] == value)
-//     {
-//         flag = true;
-//         break;
-//     }
-// }
+for (int i = 0; i < arrayNum.Length; i++)
+{
+    if (arrayNum[i] == value)
+    {
+        flag = true;
+        // break;
+    }
+}
 
-// if (flag==true)
-// {
-//     Console.WriteLine("Yes");
-// }
-// else
-// {
-//     Console.WriteLine("No");
-// }
+if (flag==true)
+{
+    Console.WriteLine("Yes");
+}
+else
+{
+    Console.WriteLine("No");
+}
  
 // Задача 35: Задайте одномерный массив из 123 случайных чисел. 
 // Найдите количество элементов массива, значения которых лежат в отрезке [10,99]. 
